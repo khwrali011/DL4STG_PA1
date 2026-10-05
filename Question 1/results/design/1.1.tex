@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+model & established stations RMSE (m/s²) & established stations MSE (m/s²)² & established stations, Product A RMSE & established stations, Product B RMSE & established stations, Product C RMSE & held-out station 4 RMSE (m/s²) & held-out station 4 MSE (m/s²)² & held-out station 4, Product A RMSE & held-out station 4, Product B RMSE & held-out station 4, Product C RMSE & parameters & fit seconds \\
+\midrule
+Shared ridge & 0.767 & 0.588 & 0.805 & 0.854 & 0.621 & 0.876 & 0.767 & 0.909 & 0.982 & 0.713 & 4608 & 0.003 \\
+Sensor-specific ridge & 0.768 & 0.590 & 0.804 & 0.852 & 0.630 & unavailable & unavailable & unavailable & unavailable & unavailable & 13824 & 0.005 \\
+Period-routed ridge & 0.166 & 0.028 & 0.181 & 0.164 & 0.152 & 0.173 & 0.030 & 0.184 & 0.182 & 0.150 & 59904 & 0.143 \\
+Raw Attention & 0.433 & 0.188 & 0.425 & 0.455 & 0.418 & 0.644 & 0.415 & 0.668 & 0.608 & 0.655 & 368368 & 283.787 \\
+\bottomrule
+\end{tabular}

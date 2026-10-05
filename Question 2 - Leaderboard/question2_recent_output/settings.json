@@ -1,0 +1,45 @@
+{
+  "data_code_sha256": "cee0f548f36a66ca38f1549ff9fa02e34ccb418666b22f5d9ee79ca6de754727",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 12,
+  "patience": 3,
+  "batch_size": 32,
+  "stride": 16,
+  "configs": [
+    {
+      "name": "mixed_672_full",
+      "loss": "hybrid_raw_log",
+      "context": 672,
+      "span": 0
+    },
+    {
+      "name": "raw_672_full",
+      "loss": "raw_mse",
+      "context": 672,
+      "span": 0
+    },
+    {
+      "name": "mixed_672_recent",
+      "loss": "hybrid_raw_log",
+      "context": 672,
+      "span": 16000
+    },
+    {
+      "name": "raw_336_recent",
+      "loss": "raw_mse",
+      "context": 336,
+      "span": 16000
+    },
+    {
+      "name": "mixed_336_full",
+      "loss": "hybrid_raw_log",
+      "context": 336,
+      "span": 0
+    }
+  ],
+  "smoke": false
+}

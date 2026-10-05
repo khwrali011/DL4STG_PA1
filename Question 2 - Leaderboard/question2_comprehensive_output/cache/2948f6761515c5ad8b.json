@@ -1,0 +1,68 @@
+{
+  "key": "2948f6761515c5ad8b",
+  "cfg": {
+    "context": 672,
+    "width": 64,
+    "enc_layers": 2,
+    "kernel": 25,
+    "factor": 1.0,
+    "corr_normalized": true,
+    "target": "raw",
+    "loss": "raw",
+    "span": 0,
+    "half_life": 0,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "cov_head": true,
+    "cov_mode": "all",
+    "name": "cfg003_raw_672_w64"
+  },
+  "seed": 17,
+  "stage": "audit",
+  "fit_end": 42312,
+  "epochs_executed": 8,
+  "best_epoch": 8,
+  "P": 171714,
+  "fit_seconds": 210.39199999999255,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5429208302497863
+    },
+    {
+      "epoch": 2,
+      "loss": 0.4367820413296039
+    },
+    {
+      "epoch": 3,
+      "loss": 0.4057395821351271
+    },
+    {
+      "epoch": 4,
+      "loss": 0.38712595394024485
+    },
+    {
+      "epoch": 5,
+      "loss": 0.36940856429246754
+    },
+    {
+      "epoch": 6,
+      "loss": 0.3597017141030385
+    },
+    {
+      "epoch": 7,
+      "loss": 0.347503315943938
+    },
+    {
+      "epoch": 8,
+      "loss": 0.33884502204564904
+    }
+  ],
+  "checkpoint": "question2_comprehensive_output\\cache\\2948f6761515c5ad8b\\model.pt",
+  "metrics": {
+    "rmse": 65.767597606884,
+    "mae": 51.01160420690264,
+    "smape": 78.4278319087538,
+    "mean_error": 21.615971247355144
+  }
+}

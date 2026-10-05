@@ -1,0 +1,21 @@
+{
+  "trainable_parameters_P": 22210,
+  "validation_training_epochs_for_selected_seed": 14,
+  "final_refit_epochs": 3,
+  "conservative_declared_epochs_E": 17,
+  "selected_external": true,
+  "selected_seed": 29,
+  "selected_candidate": "hybrid_672",
+  "loss": "hybrid_raw_log",
+  "context": 672,
+  "validation_fit_ends": [
+    27000,
+    33000
+  ],
+  "validation_rmse_mean": 69.36980438232422,
+  "validation_rmse_by_fold": [
+    66.08917490641277,
+    72.65043385823567
+  ],
+  "search_time_minutes": 11.458333333333334
+}

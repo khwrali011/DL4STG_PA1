@@ -1,0 +1,5 @@
+numpy
+pandas
+matplotlib
+# Use the existing CUDA-enabled torch installation. Install torch separately
+# according to your GPU environment if it is not already installed.

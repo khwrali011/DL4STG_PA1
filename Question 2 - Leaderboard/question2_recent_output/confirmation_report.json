@@ -1,0 +1,34 @@
+{
+  "selected_config": {
+    "name": "mixed_672_full",
+    "loss": "hybrid_raw_log",
+    "context": 672,
+    "span": 0
+  },
+  "selected_seed": 43,
+  "development_mean_seed_rmse": 69.90446186437899,
+  "untouched_confirmation": {
+    "mae": 34.73047276550815,
+    "rmse": 61.94794888191173,
+    "smape": 55.25727482996793
+  },
+  "confirmation_block_rmse": [
+    57.88008241056055,
+    97.61131358050984,
+    37.696509839957024,
+    32.42058219440096
+  ],
+  "diagnostic_baselines": {
+    "last_value": {
+      "mae": 170.3020782470703,
+      "rmse": 245.16555786132812,
+      "smape": 114.47151947021484
+    },
+    "repeat_last_168": {
+      "mae": 124.29762268066406,
+      "rmse": 164.54306030273438,
+      "smape": 119.84556579589844
+    }
+  },
+  "note": "Confirmation is diagnostic; no model/seed/epoch selection uses these targets."
+}

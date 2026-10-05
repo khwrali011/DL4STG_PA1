@@ -1,0 +1,125 @@
+{
+  "parameters_P_for_form": 515142,
+  "epochs_E_selected_pipeline": 112,
+  "final_fit_epochs_sum": 15,
+  "search_and_ablation_epochs_total": 348,
+  "epoch_explanation": "Selected three-fold early-stop runs + selected audit fits + selected final fits, summed across ensemble members; unrelated search and ablation excluded.",
+  "calibration_coefficients_counted_in_P": 0,
+  "ensemble_size": 3,
+  "members": [
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 17,
+      "weight": 0.3333333333333333,
+      "final_epochs": 8
+    },
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 29,
+      "weight": 0.3333333333333333,
+      "final_epochs": 4
+    },
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 43,
+      "weight": 0.3333333333333333,
+      "final_epochs": 3
+    }
+  ],
+  "actual_completed_fit_minutes": 120.6500999999999,
+  "audit_metrics": {
+    "rmse": 64.8406238742745,
+    "mae": 51.12322538807278,
+    "smape": 70.62535765742295,
+    "mean_error": 25.441833149819136,
+    "block_rmse": [
+      62.480807050195146,
+      68.73203723608303,
+      64.00142070543868,
+      74.09740806520942,
+      56.071255071920625,
+      83.08475144923138,
+      59.91333031597256,
+      42.228324503898776
+    ],
+    "horizon_bins": {
+      "1-24": {
+        "rmse": 38.147800700287085,
+        "mae": 27.777499212159054,
+        "smape": 54.62841476022595,
+        "mean_error": 5.357444723447156
+      },
+      "25-72": {
+        "rmse": 62.93409083332051,
+        "mae": 52.443434284793,
+        "smape": 69.78213136750409,
+        "mean_error": 32.02756412823994
+      },
+      "73-168": {
+        "rmse": 70.80517504839221,
+        "mae": 56.299552483691095,
+        "smape": 75.04620652668163,
+        "mean_error": 27.170064767201726
+      }
+    },
+    "high_target_rmse": 96.01566412826175
+  },
+  "test_metrics": null,
+  "test_indices": [
+    43657,
+    43824
+  ],
+  "final_checkpoints": [
+    "question2_comprehensive_output\\cache\\2a7a6f30b13216a6f8\\model.pt",
+    "question2_comprehensive_output\\cache\\9a3a28b5625014972f\\model.pt",
+    "question2_comprehensive_output\\cache\\48e8dcbddff1e8c606\\model.pt"
+  ]
+}

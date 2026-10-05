@@ -1,0 +1,41 @@
+{
+  "config": {
+    "name": "mixed_336_full",
+    "loss": "hybrid_raw_log",
+    "context": 336,
+    "span": 0
+  },
+  "seed": 29,
+  "stage": "development",
+  "fit_end": 42312,
+  "origins": [
+    42312,
+    42480,
+    42648,
+    42816
+  ],
+  "epochs_executed": 2,
+  "best_epoch": 2,
+  "parameters": 22210,
+  "history": [
+    {
+      "epoch": 1,
+      "train_optimization_loss": 0.7506438406502328
+    },
+    {
+      "epoch": 2,
+      "train_optimization_loss": 0.5811486360503406
+    }
+  ],
+  "metrics": {
+    "mae": 60.98697571811222,
+    "rmse": 93.95119763223983,
+    "smape": 58.864071614149864
+  },
+  "block_rmse": [
+    97.8199926176065,
+    31.899371092074272,
+    108.84616814348394,
+    113.46145158083742
+  ]
+}

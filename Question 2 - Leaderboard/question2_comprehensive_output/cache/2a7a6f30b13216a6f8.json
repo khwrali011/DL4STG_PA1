@@ -1,0 +1,62 @@
+{
+  "key": "2a7a6f30b13216a6f8",
+  "cfg": {
+    "context": 672,
+    "width": 64,
+    "enc_layers": 2,
+    "kernel": 25,
+    "factor": 1.0,
+    "corr_normalized": true,
+    "target": "raw",
+    "loss": "raw",
+    "span": 0,
+    "half_life": 0,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "cov_head": true,
+    "cov_mode": "all",
+    "name": "cfg003_raw_672_w64"
+  },
+  "seed": 17,
+  "stage": "final",
+  "fit_end": 43656,
+  "epochs_executed": 8,
+  "best_epoch": 8,
+  "P": 171714,
+  "fit_seconds": 217.04900000011548,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5445361757901177
+    },
+    {
+      "epoch": 2,
+      "loss": 0.43031827958662117
+    },
+    {
+      "epoch": 3,
+      "loss": 0.39960805168792385
+    },
+    {
+      "epoch": 4,
+      "loss": 0.3764633444262974
+    },
+    {
+      "epoch": 5,
+      "loss": 0.3595779102684847
+    },
+    {
+      "epoch": 6,
+      "loss": 0.33538987222892136
+    },
+    {
+      "epoch": 7,
+      "loss": 0.318600664966142
+    },
+    {
+      "epoch": 8,
+      "loss": 0.30243762437977006
+    }
+  ],
+  "checkpoint": "question2_comprehensive_output\\cache\\2a7a6f30b13216a6f8\\model.pt"
+}

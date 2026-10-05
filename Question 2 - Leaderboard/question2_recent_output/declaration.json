@@ -1,0 +1,28 @@
+{
+  "trainable_parameters_P": 22210,
+  "final_refit_epochs": 6,
+  "selected_pipeline_epochs_including_validation": 27,
+  "all_experiments_epochs_including_search": 170,
+  "conservative_E_if_form_counts_all_training": 170,
+  "selected_candidate": {
+    "name": "mixed_672_full",
+    "loss": "hybrid_raw_log",
+    "context": 672,
+    "span": 0
+  },
+  "selected_seed": 43,
+  "uses_optional_data": true,
+  "test_time_idx": [
+    43657,
+    43824
+  ],
+  "development_mean_seed_rmse": 69.90446186437899,
+  "confirmation_metrics": {
+    "mae": 34.73047276550815,
+    "rmse": 61.94794888191173,
+    "smape": 55.25727482996793
+  },
+  "epoch_note": "Counts are actual epochs executed. Use the count matching the form definition; all-training count is the conservative upper bound.",
+  "test_metrics": null,
+  "elapsed_minutes_this_invocation": 8.902866666666522
+}

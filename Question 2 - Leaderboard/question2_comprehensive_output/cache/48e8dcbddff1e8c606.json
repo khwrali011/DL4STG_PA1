@@ -1,0 +1,42 @@
+{
+  "key": "48e8dcbddff1e8c606",
+  "cfg": {
+    "context": 672,
+    "width": 64,
+    "enc_layers": 2,
+    "kernel": 25,
+    "factor": 1.0,
+    "corr_normalized": true,
+    "target": "raw",
+    "loss": "raw",
+    "span": 0,
+    "half_life": 0,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "cov_head": true,
+    "cov_mode": "all",
+    "name": "cfg003_raw_672_w64"
+  },
+  "seed": 43,
+  "stage": "final",
+  "fit_end": 43656,
+  "epochs_executed": 3,
+  "best_epoch": 3,
+  "P": 171714,
+  "fit_seconds": 81.39100000000326,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5421308581508807
+    },
+    {
+      "epoch": 2,
+      "loss": 0.43678731277807437
+    },
+    {
+      "epoch": 3,
+      "loss": 0.40707137842676533
+    }
+  ],
+  "checkpoint": "question2_comprehensive_output\\cache\\48e8dcbddff1e8c606\\model.pt"
+}

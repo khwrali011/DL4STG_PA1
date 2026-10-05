@@ -1,0 +1,16 @@
+[
+  {
+    "external": false,
+    "mae_mean": 71.20343526204427,
+    "rmse_mean": 106.98294321695964,
+    "smape_mean": 75.16915384928386,
+    "rmse_std_across_seeds": 0.6252508227486406
+  },
+  {
+    "external": true,
+    "mae_mean": 52.48853302001953,
+    "rmse_mean": 80.10781860351562,
+    "smape_mean": 53.32096481323242,
+    "rmse_std_across_seeds": 1.6012124879934735
+  }
+]

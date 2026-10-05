@@ -1,0 +1,73 @@
+{
+  "config": {
+    "name": "mixed_672_recent",
+    "loss": "hybrid_raw_log",
+    "context": 672,
+    "span": 16000
+  },
+  "seed": 17,
+  "stage": "development",
+  "fit_end": 42312,
+  "origins": [
+    42312,
+    42480,
+    42648,
+    42816
+  ],
+  "epochs_executed": 10,
+  "best_epoch": 10,
+  "parameters": 22210,
+  "history": [
+    {
+      "epoch": 1,
+      "train_optimization_loss": 0.8291805863380433
+    },
+    {
+      "epoch": 2,
+      "train_optimization_loss": 0.6437362730503082
+    },
+    {
+      "epoch": 3,
+      "train_optimization_loss": 0.5592889815568924
+    },
+    {
+      "epoch": 4,
+      "train_optimization_loss": 0.5040128389994304
+    },
+    {
+      "epoch": 5,
+      "train_optimization_loss": 0.46737889647483827
+    },
+    {
+      "epoch": 6,
+      "train_optimization_loss": 0.4253655791282654
+    },
+    {
+      "epoch": 7,
+      "train_optimization_loss": 0.397307762503624
+    },
+    {
+      "epoch": 8,
+      "train_optimization_loss": 0.3671949883302053
+    },
+    {
+      "epoch": 9,
+      "train_optimization_loss": 0.3475705136855443
+    },
+    {
+      "epoch": 10,
+      "train_optimization_loss": 0.3315860797961553
+    }
+  ],
+  "metrics": {
+    "mae": 67.47915169596672,
+    "rmse": 88.91491305582707,
+    "smape": 66.97739703872364
+  },
+  "block_rmse": [
+    98.00212633678223,
+    96.42010384339486,
+    65.6025007877587,
+    91.75241551911098
+  ]
+}

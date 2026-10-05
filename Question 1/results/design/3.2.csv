@@ -1,0 +1,3 @@
+station,product,expected delay (samples),nearest integer delay,residual signal correlation
+2,Product A,16.134719099991592,16,0.8959505249594941
+2,Product A,32.269438199983185,32,0.8969467494413659

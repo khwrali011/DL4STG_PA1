@@ -1,0 +1,10 @@
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+model & established stations RMSE (m/s²) & established stations MSE (m/s²)² & established stations, Product A RMSE & established stations, Product B RMSE & established stations, Product C RMSE & held-out station 4 RMSE (m/s²) & held-out station 4 MSE (m/s²)² & held-out station 4, Product A RMSE & held-out station 4, Product B RMSE & held-out station 4, Product C RMSE & parameters & fit seconds \\
+\midrule
+Raw Attention & 0.433 & 0.188 & 0.425 & 0.455 & 0.418 & 0.644 & 0.415 & 0.668 & 0.608 & 0.655 & 368368 & 283.787 \\
+Raw delay mixer & 0.224 & 0.050 & 0.208 & 0.216 & 0.245 & 0.353 & 0.125 & 0.436 & 0.282 & 0.322 & 368370 & 372.820 \\
+Attention + decomposition & 0.289 & 0.083 & 0.267 & 0.317 & 0.280 & 0.428 & 0.183 & 0.383 & 0.453 & 0.444 & 373024 & 416.411 \\
+Autoformer-inspired & 0.197 & 0.039 & 0.222 & 0.183 & 0.183 & 0.243 & 0.059 & 0.270 & 0.227 & 0.231 & 373026 & 508.990 \\
+\bottomrule
+\end{tabular}

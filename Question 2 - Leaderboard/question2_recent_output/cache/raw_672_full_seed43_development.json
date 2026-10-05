@@ -1,0 +1,41 @@
+{
+  "config": {
+    "name": "raw_672_full",
+    "loss": "raw_mse",
+    "context": 672,
+    "span": 0
+  },
+  "seed": 43,
+  "stage": "development",
+  "fit_end": 42312,
+  "origins": [
+    42312,
+    42480,
+    42648,
+    42816
+  ],
+  "epochs_executed": 2,
+  "best_epoch": 2,
+  "parameters": 22210,
+  "history": [
+    {
+      "epoch": 1,
+      "train_optimization_loss": 0.6996135926101266
+    },
+    {
+      "epoch": 2,
+      "train_optimization_loss": 0.4983924951676915
+    }
+  ],
+  "metrics": {
+    "mae": 53.254947348719554,
+    "rmse": 68.21766414441547,
+    "smape": 65.16678750684062
+  },
+  "block_rmse": [
+    64.80853865479895,
+    61.931842889595714,
+    69.71506559736056,
+    75.62214350152108
+  ]
+}

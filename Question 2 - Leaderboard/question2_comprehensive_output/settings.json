@@ -1,0 +1,19 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "batch_size": 16,
+  "stride": 8,
+  "screen_configs": 10,
+  "screen_epochs": 6,
+  "refine_configs": 3,
+  "epochs": 16,
+  "patience": 4,
+  "min_epochs": 3,
+  "calibration": "auto",
+  "smoke": false,
+  "code_sha256": "b4963694a491146b620ff7fc302ae58cc554ff51e07255e8b24f1e711e76171e",
+  "data_sha256": "028eb05823ba85a26b3fb50880d478fc7854ab09c6256903e42cec5e1d2ab509"
+}

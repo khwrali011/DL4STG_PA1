@@ -1,0 +1,76 @@
+{
+  "key": "6f1aa2134b0ca4551d",
+  "cfg": {
+    "context": 672,
+    "width": 48,
+    "enc_layers": 2,
+    "kernel": 25,
+    "factor": 1.0,
+    "corr_normalized": true,
+    "target": "log",
+    "loss": "mixed",
+    "span": 0,
+    "half_life": 0,
+    "lr": 0.0005,
+    "dropout": 0.1,
+    "cov_head": true,
+    "cov_mode": "all",
+    "name": "cfg001_log_672_w48"
+  },
+  "seed": 29,
+  "stage": "refine_f2",
+  "fit_end": 39624,
+  "epochs_executed": 5,
+  "best_epoch": 1,
+  "P": 98066,
+  "fit_seconds": 119.90700000006473,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5684475728163594,
+      "rmse": 41.56438195674178,
+      "mae": 34.35933532885143,
+      "smape": 57.46256799730252,
+      "mean_error": -2.2962486488478526
+    },
+    {
+      "epoch": 2,
+      "loss": 0.43009196388486187,
+      "rmse": 42.335631006573045,
+      "mae": 35.185879102775026,
+      "smape": 56.839166640067646,
+      "mean_error": 12.936611456530434
+    },
+    {
+      "epoch": 3,
+      "loss": 0.38218169718196515,
+      "rmse": 42.71644982320542,
+      "mae": 35.61059834559759,
+      "smape": 57.839720038304115,
+      "mean_error": 7.339848515533266
+    },
+    {
+      "epoch": 4,
+      "loss": 0.36596967755375726,
+      "rmse": 43.0707080507595,
+      "mae": 34.66462084225246,
+      "smape": 54.65960672627086,
+      "mean_error": 14.180191613378978
+    },
+    {
+      "epoch": 5,
+      "loss": 0.3432465428976636,
+      "rmse": 44.240101274226944,
+      "mae": 34.65991866020929,
+      "smape": 53.58923809209372,
+      "mean_error": 13.3528699193682
+    }
+  ],
+  "checkpoint": "question2_comprehensive_output\\cache\\6f1aa2134b0ca4551d\\model.pt",
+  "metrics": {
+    "rmse": 63.63300279041215,
+    "mae": 43.43559498209802,
+    "smape": 53.430929500703336,
+    "mean_error": -0.8206705361131638
+  }
+}

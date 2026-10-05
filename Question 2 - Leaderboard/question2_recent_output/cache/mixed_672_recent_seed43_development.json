@@ -1,0 +1,57 @@
+{
+  "config": {
+    "name": "mixed_672_recent",
+    "loss": "hybrid_raw_log",
+    "context": 672,
+    "span": 16000
+  },
+  "seed": 43,
+  "stage": "development",
+  "fit_end": 42312,
+  "origins": [
+    42312,
+    42480,
+    42648,
+    42816
+  ],
+  "epochs_executed": 6,
+  "best_epoch": 6,
+  "parameters": 22210,
+  "history": [
+    {
+      "epoch": 1,
+      "train_optimization_loss": 0.7987600207328797
+    },
+    {
+      "epoch": 2,
+      "train_optimization_loss": 0.5831829508145651
+    },
+    {
+      "epoch": 3,
+      "train_optimization_loss": 0.5004189064105352
+    },
+    {
+      "epoch": 4,
+      "train_optimization_loss": 0.4428160587946574
+    },
+    {
+      "epoch": 5,
+      "train_optimization_loss": 0.3959807366132736
+    },
+    {
+      "epoch": 6,
+      "train_optimization_loss": 0.35723815659681957
+    }
+  ],
+  "metrics": {
+    "mae": 52.20479240871611,
+    "rmse": 72.78507170749712,
+    "smape": 56.737561705229275
+  },
+  "block_rmse": [
+    93.46251293949895,
+    47.65503343371127,
+    69.48700878010587,
+    73.18455252388534
+  ]
+}

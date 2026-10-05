@@ -1,0 +1,4 @@
+station,product,actual period (samples),mean |Attention weight difference|,max |Attention weight difference|
+1,Product A,16.134719099991592,,
+1,Product C,30.093166289984026,,
+1,Product A vs Product C (difference),,0.012108074501156807,0.3827357888221741

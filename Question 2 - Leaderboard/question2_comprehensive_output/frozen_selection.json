@@ -1,0 +1,136 @@
+{
+  "name": "cfg003_raw_672_w64_seed_ensemble",
+  "members": [
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 17,
+      "weight": 0.3333333333333333,
+      "final_epochs": 8
+    },
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 29,
+      "weight": 0.3333333333333333,
+      "final_epochs": 4
+    },
+    {
+      "config": {
+        "context": 672,
+        "width": 64,
+        "enc_layers": 2,
+        "kernel": 25,
+        "factor": 1.0,
+        "corr_normalized": true,
+        "target": "raw",
+        "loss": "raw",
+        "span": 0,
+        "half_life": 0,
+        "lr": 0.0005,
+        "dropout": 0.1,
+        "cov_head": true,
+        "cov_mode": "all",
+        "name": "cfg003_raw_672_w64"
+      },
+      "seed": 43,
+      "weight": 0.3333333333333333,
+      "final_epochs": 3
+    }
+  ],
+  "development": {
+    "rmse": 57.81874344259367,
+    "mae": 39.96681490840105,
+    "smape": 51.86688845906562,
+    "mean_error": -0.09303720897257332,
+    "fold_rmse": [
+      37.984127706352886,
+      71.84697247826607,
+      58.51700494673457
+    ],
+    "block_rmse": [
+      31.13275756313201,
+      35.288583505428676,
+      30.98889985021095,
+      36.524535488591916,
+      36.075025532475266,
+      27.799307524965872,
+      28.888069055349963,
+      28.614911473336022,
+      34.54249273906188,
+      39.323251694048096,
+      36.006314190019566,
+      71.00099940902402,
+      181.54155795078412,
+      55.505344050061424,
+      43.785893284181334,
+      31.79391323163156,
+      82.55145968222187,
+      67.979846095916,
+      57.69713268652653,
+      59.089829042638286,
+      30.18097113669694,
+      33.61134474668738,
+      38.461760118570176,
+      34.65719416869719,
+      32.466615118968,
+      39.89376560288414,
+      37.52122650160833,
+      32.59284870653552,
+      40.50558278363384,
+      44.89708034574326,
+      38.52675103857779,
+      55.776614693095134,
+      75.05101190386169,
+      90.56166279779322,
+      72.85234331421478,
+      92.63813536384046
+    ],
+    "p90_block_rmse": 78.80123579304178,
+    "selection_score": 61.32580070151177
+  },
+  "affine_calibration": [
+    1.0,
+    0.0
+  ],
+  "calibration_check": {
+    "prequential_raw_rmse": 65.52185636193803,
+    "prequential_calibrated_rmse": 68.11598956048198,
+    "fit_on_all_development": [
+      1.1383190043562355,
+      -11.688135908674893
+    ]
+  },
+  "selection_rule": "0.75 pooled RMSE + 0.25 worst-fold RMSE; prefer fewer parameters within 1% of best",
+  "epoch_rule": "median of best epochs across three development folds, per selected seed"
+}
